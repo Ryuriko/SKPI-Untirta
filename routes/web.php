@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SubmissionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.main');
+    return view('landingpage');
 });
+
+Route::resource('/submissions', SubmissionController::class);
+Route::get('/track', [SubmissionController::class, 'track']);

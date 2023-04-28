@@ -27,19 +27,19 @@
             <a href="/"><span class="fa fa-home mr-3"></span> Homepage</a>
           </li>
           <li>
-              <a href="/submissions"><span class="fa fa-user mr-3"></span> Submissions</a>
+              <a href="/submissions"><span class="fa fa-paper-plane mr-3"></span> Submissions</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-sticky-note mr-3"></span> Friends</a>
+            <a href="/prodi/user"><span class="fa fa-user mr-3"></span> Users</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-sticky-note mr-3"></span> Subcription</a>
+            <a href="/prodi/skpi"><span class="fa fa-sticky-note mr-3"></span> SKPI</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Settings</a>
+            <a href="#"><span class="fa fa-plane mr-3"></span> Settings</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Information</a>
+            <a href="#"><span class="fa fa-plane mr-3"></span> Information</a>
           </li>
         </ul>
 

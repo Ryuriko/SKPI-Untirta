@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\SubmissionController;
+use App\Http\Controllers\ProdiController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landingpage');
-});
+Route::get('/', [Controller::class, 'login']);
+Route::get('/registration', [Controller::class, 'registration']);
 
 Route::resource('/submissions', SubmissionController::class);
 Route::get('/track', [SubmissionController::class, 'track']);
+
+Route::get('/prodi/user', [ProdiController::class, 'user']);

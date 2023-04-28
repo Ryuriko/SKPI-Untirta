@@ -18,8 +18,8 @@
                     <td>Something</td>
                     <td>26 April 2023</td>
                     <td>
-                        <a href="/track" class="btn btn-info rounded-circle"><i class="bi bi-zoom-in"></i></a>
-                        <a href="/" class="btn btn-success rounded-circle"><i class="bi bi-pencil-square"></i></a>
+                        <a href="/track" class="btn btn-primary rounded-circle"><i class="bi bi-zoom-in"></i></a>
+                        <a href="/" class="btn btn-success rounded-circle my-2 my-md-0"><i class="bi bi-pencil-square"></i></a>
                         <a href="/" class="btn btn-danger rounded-circle"><i class="bi bi-x-circle"></i></a>
                     </td>
                   </tr>
@@ -29,7 +29,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col text-center">
-          <a href="/submissions/create" class="btn btn-primary"><i class="bi bi-patch-plus-fill d-block"></i> Add new submission</a>
+          <a href="/submissions/create" class="btn btn-dark"><i class="bi bi-patch-plus-fill d-block"></i> Add new submission</a>
         </div>
       </div>
 @endsection

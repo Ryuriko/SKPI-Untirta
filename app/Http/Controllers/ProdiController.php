@@ -10,4 +10,8 @@ class ProdiController extends Controller
     {
         return view('prodi.user');
     }
+    public function skpi()
+    {
+        return view('prodi.skpi');
+    }
 }
